@@ -73,6 +73,10 @@ header{
     position: relative;
 }
 
+.row.down{
+    margin-bottom: 50px;
+}
+
 .main-col{
     flex-basis: calc((100% / 3) - 10px);
     margin: 0 5px;
@@ -120,11 +124,11 @@ header{
     padding: 5px;
 }
 
-.label.heart:hover .like{
+.like:hover{
     color: red;
 }
 
-.label.discount{
+.discount{
     left: 0;
     bottom: 20px;
     padding: 3px;
@@ -133,8 +137,17 @@ header{
     font-size: 10px;
 }
 
-.label.eco{
+.eco{
     left: 30px;
+    bottom: 20px;
+    padding: 3px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+}
+
+.just-eco{
+    left: 0;
     bottom: 20px;
     padding: 3px;
     background-color: green;
@@ -152,7 +165,6 @@ header{
 
 .description{
     font-size: 11px; 
-    position: fixed;
 }
 
 .dis-price{
