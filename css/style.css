@@ -24,6 +24,8 @@ header{
     background-color: #ff6900;
     height: 50px;
     display: flex;
+    position: fixed;
+    z-index: 200;
 }
 
 .navbar{
@@ -60,4 +62,103 @@ header{
 
 .icon{
     padding: 0 5px;
+}
+
+
+/* stili main */
+.row{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.main-col{
+    flex-basis: calc((100% / 3) - 10px);
+    margin: 0 5px;
+}
+
+.main-col:hover{
+    cursor: pointer;
+}
+
+.item{
+    position: relative;
+    width: 100%;
+    height: 305px;
+    margin-top: 100px;
+}
+
+.model{
+    width: 100%;
+}
+
+.nrm-model{
+    position: relative;
+}
+
+.hov-model{
+    display: none;
+}
+
+.item:hover .nrm-model{
+    display: none;
+}
+
+.item:hover .hov-model{
+    display: block;
+}
+
+.label{
+    position: absolute;
+    background-color: white;
+}
+
+.label.heart{
+    right: 0;
+    top: 5px;
+    padding: 5px;
+}
+
+.label.heart:hover .like{
+    color: red;
+}
+
+.label.discount{
+    left: 0;
+    bottom: 20px;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+}
+
+.label.eco{
+    left: 30px;
+    bottom: 20px;
+    padding: 3px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+}
+
+.like{
+    color: black;
+}
+
+.item:hover .description{
+    margin-top: 6px;
+}
+
+.description{
+    font-size: 11px; 
+    position: fixed;
+}
+
+.dis-price{
+    color: red;
+}
+
+.or-price{
+    text-decoration: line-through;
 }
