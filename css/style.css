@@ -14,6 +14,10 @@ a{
     color: white;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 i{
     color: white;
 }
@@ -63,6 +67,7 @@ header{
 .icon{
     padding: 0 5px;
 }
+
 
 
 /* stili main */
@@ -173,4 +178,46 @@ header{
 
 .or-price{
     text-decoration: line-through;
+}
+
+
+/* stili footer */
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.main-footer{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.col-footer{
+    flex-basis: 50%;
+}
+
+.col-footer ul{
+    display: flex;
+}
+
+#findus, #srl{
+    color: white;
+}
+
+#findus{
+    text-align: right;
+}
+
+.info{
+    font-size: 10px;
+    padding: 2px 5px 2px 0;
+}
+
+.col-footer.social{
+    text-align: right;
 }
