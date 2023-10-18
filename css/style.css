@@ -1,0 +1,63 @@
+/* stili generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+/* stili header */
+header{
+    width: 100%;
+    background-color: #ff6900;
+    height: 50px;
+    display: flex;
+}
+
+.navbar{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.col{
+    flex-basis: calc(100% / 3);
+}
+
+.col ul{
+    display: flex;
+}
+
+.genre{
+    padding: 0 10px;
+}
+
+#logo{
+    width: 100px;
+}
+
+.col.store-logo{
+    text-align: center;
+}
+
+.col.admin-section{
+    text-align: right;
+}
+
+.icon{
+    padding: 0 5px;
+}
