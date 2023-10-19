@@ -124,13 +124,16 @@ main{
 
 .label{
     position: absolute;
-    background-color: white;
+    left: 0;
+    bottom: 70px;
 }
 
-.label.heart{
+.heart{
+    position: absolute;
     right: 0;
     top: 5px;
     padding: 5px;
+    background-color: white;
 }
 
 .like:hover{
@@ -138,30 +141,17 @@ main{
 }
 
 .discount{
-    left: 0;
-    bottom: 70px;
-    padding: 3px;
     background-color: red;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
+    padding: 3px;
 }
 
 .eco{
-    left: 30px;
-    bottom: 70px;
-    padding: 3px;
     background-color: green;
     color: white;
-    font-size: 10px;
-}
-
-.just-eco{
-    left: 0;
-    bottom: 70px;
+    font-size: 12px;
     padding: 3px;
-    background-color: green;
-    color: white;
-    font-size: 10px;
 }
 
 .like{
